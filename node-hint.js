@@ -1,4 +1,4 @@
-var jsHint = exports.jsHint = require(__dirname + '/lib/jshint').JSHINT,
+var jsHint = exports.jsHint = require('jshint').JSHINT,
 	defaultReporter = require('./lib/report').report;
 
 exports.hint = function (options, callback) {
